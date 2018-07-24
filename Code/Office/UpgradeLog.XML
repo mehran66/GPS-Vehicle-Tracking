@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="mCoreDemo">
+</Property><Property Name="Solution File" Value="D:\Temporary\GSM_SMS\source\mCore.NET 1.2\Sample Code\Backup\mCoreDemo.sln">
+</Property><Property Name="User Options File" Value="D:\Temporary\GSM_SMS\source\mCore.NET 1.2\Sample Code\Backup\mCoreDemo.suo">
+</Property><Property Name="Date" Value="Tuesday, May 17, 2011">
+</Property><Property Name="Time" Value="0:00 AM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="mCoreDemo.sln" Description="File successfully backed up as D:\Temporary\GSM_SMS\source\mCore.NET 1.2\Sample Code\Backup\Backup\mCoreDemo.sln">
+</Event><Event ErrorLevel="0" Project="" Source="mCoreDemo.suo" Description="File successfully backed up as D:\Temporary\GSM_SMS\source\mCore.NET 1.2\Sample Code\Backup\Backup\mCoreDemo.suo">
+</Event><Event ErrorLevel="0" Project="mCoreDemo" Source="mCoreDemo.csproj" Description="Project file successfully backed up as D:\Temporary\GSM_SMS\source\mCore.NET 1.2\Sample Code\Backup\Backup\mCoreDemo.csproj">
+</Event><Event ErrorLevel="0" Project="mCoreDemo" Source="frmMain.cs" Description="File successfully backed up as D:\Temporary\GSM_SMS\source\mCore.NET 1.2\Sample Code\Backup\Backup\frmMain.cs">
+</Event><Event ErrorLevel="0" Project="mCoreDemo" Source="frmMain.Designer.cs" Description="File successfully backed up as D:\Temporary\GSM_SMS\source\mCore.NET 1.2\Sample Code\Backup\Backup\frmMain.Designer.cs">
+</Event><Event ErrorLevel="0" Project="mCoreDemo" Source="Program.cs" Description="File successfully backed up as D:\Temporary\GSM_SMS\source\mCore.NET 1.2\Sample Code\Backup\Backup\Program.cs">
+</Event><Event ErrorLevel="0" Project="mCoreDemo" Source="Properties\AssemblyInfo.cs" Description="File successfully backed up as D:\Temporary\GSM_SMS\source\mCore.NET 1.2\Sample Code\Backup\Backup\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="mCoreDemo" Source="Properties\Resources.Designer.cs" Description="File successfully backed up as D:\Temporary\GSM_SMS\source\mCore.NET 1.2\Sample Code\Backup\Backup\Properties\Resources.Designer.cs">
+</Event><Event ErrorLevel="0" Project="mCoreDemo" Source="Properties\Settings.Designer.cs" Description="File successfully backed up as D:\Temporary\GSM_SMS\source\mCore.NET 1.2\Sample Code\Backup\Backup\Properties\Settings.Designer.cs">
+</Event><Event ErrorLevel="0" Project="mCoreDemo" Source="Properties\Settings.settings" Description="File successfully backed up as D:\Temporary\GSM_SMS\source\mCore.NET 1.2\Sample Code\Backup\Backup\Properties\Settings.settings">
+</Event><Event ErrorLevel="0" Project="mCoreDemo" Source="frmMain.resx" Description="File successfully backed up as D:\Temporary\GSM_SMS\source\mCore.NET 1.2\Sample Code\Backup\Backup\frmMain.resx">
+</Event><Event ErrorLevel="0" Project="mCoreDemo" Source="Properties\Resources.resx" Description="File successfully backed up as D:\Temporary\GSM_SMS\source\mCore.NET 1.2\Sample Code\Backup\Backup\Properties\Resources.resx">
+</Event><Event ErrorLevel="1" Project="mCoreDemo" Source="mCoreDemo.csproj" Description="Your project is targeting .NET Framework 2.0 or 3.0. If your project uses assemblies requiring a newer .NET Framework, your project will fail to build. You can change the .NET Framework version by clicking Properties on the project menu and then selecting a new version in the '.NET Framework' dropdown box. (In Visual Basic, this is located on the Compile tab by clicking the 'Advanced Compiler Options...' button.)">
+</Event><Event ErrorLevel="0" Project="mCoreDemo" Source="mCoreDemo.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="mCoreDemo" Source="mCoreDemo.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="mCoreDemo.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="mCoreDemo.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="mCoreDemo" Source="mCoreDemo.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

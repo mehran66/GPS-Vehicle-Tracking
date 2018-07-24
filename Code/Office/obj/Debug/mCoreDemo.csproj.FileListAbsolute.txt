@@ -1,0 +1,33 @@
+D:\Temporary\GSM_SMS\source\mCore.NET 1.2\Sample Code\Backup\bin\Debug\mCoreDemo.exe
+D:\Temporary\GSM_SMS\source\mCore.NET 1.2\Sample Code\Backup\bin\Debug\mCoreDemo.pdb
+D:\Temporary\GSM_SMS\source\mCore.NET 1.2\Sample Code\Backup\bin\Debug\mCoreLib.dll
+D:\Temporary\GSM_SMS\source\mCore.NET 1.2\Sample Code\Backup\bin\Debug\mCoreLib.xml
+D:\Temporary\GSM_SMS\source\mCore.NET 1.2\Sample Code\Backup\obj\Debug\ResolveAssemblyReference.cache
+D:\Temporary\GSM_SMS\source\mCore.NET 1.2\Sample Code\Backup\obj\Debug\mCoreDemo.frmMain.resources
+D:\Temporary\GSM_SMS\source\mCore.NET 1.2\Sample Code\Backup\obj\Debug\mCoreDemo.Properties.Resources.resources
+D:\Temporary\GSM_SMS\source\mCore.NET 1.2\Sample Code\Backup\obj\Debug\ResGen.read.1.tlog
+D:\Temporary\GSM_SMS\source\mCore.NET 1.2\Sample Code\Backup\obj\Debug\ResGen.write.1.tlog
+D:\Temporary\GSM_SMS\source\mCore.NET 1.2\Sample Code\Backup\obj\Debug\mCoreDemo.exe
+D:\Temporary\GSM_SMS\source\mCore.NET 1.2\Sample Code\Backup\obj\Debug\mCoreDemo.pdb
+C:\Users\mehran\Desktop\Backup2\obj\Debug\mCoreDemo.exe
+C:\Users\mehran\Desktop\Backup2\obj\Debug\mCoreDemo.pdb
+C:\Users\mehran\Desktop\Backup2\bin\Debug\mCoreDemo.exe
+C:\Users\mehran\Desktop\Backup2\bin\Debug\mCoreDemo.pdb
+C:\Users\mehran\Desktop\Backup2\bin\Debug\mCoreLib.dll
+C:\Users\mehran\Desktop\Backup2\bin\Debug\mCoreLib.xml
+C:\Users\mehran\Desktop\Backup2\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\mehran\Desktop\Backup2\obj\Debug\mCoreDemo.frmMain.resources
+C:\Users\mehran\Desktop\Backup2\obj\Debug\mCoreDemo.Properties.Resources.resources
+C:\Users\mehran\Desktop\Backup2\obj\Debug\ResGen.read.1.tlog
+C:\Users\mehran\Desktop\Backup2\obj\Debug\ResGen.write.1.tlog
+C:\Users\mehran\Desktop\office\obj\Debug\mCoreDemo.exe
+C:\Users\mehran\Desktop\office\obj\Debug\mCoreDemo.pdb
+C:\Users\mehran\Desktop\office\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\mehran\Desktop\office\obj\Debug\mCoreDemo.frmMain.resources
+C:\Users\mehran\Desktop\office\obj\Debug\mCoreDemo.Properties.Resources.resources
+C:\Users\mehran\Desktop\office\obj\Debug\ResGen.read.1.tlog
+C:\Users\mehran\Desktop\office\obj\Debug\ResGen.write.1.tlog
+C:\Users\mehran\Desktop\office\bin\Debug\mCoreDemo.exe
+C:\Users\mehran\Desktop\office\bin\Debug\mCoreDemo.pdb
+C:\Users\mehran\Desktop\office\bin\Debug\mCoreLib.dll
+C:\Users\mehran\Desktop\office\bin\Debug\mCoreLib.xml

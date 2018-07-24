@@ -1,0 +1,2427 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+mCoreLib
+</name>
+</assembly>
+<members>
+<member name="F:mCore.BaudRate.BaudRate_110">
+	<summary>
+ 110 bits per second
+ </summary>
+	<remarks></remarks>
+</member><member name="F:mCore.BaudRate.BaudRate_300">
+	<summary>
+ 300 bits per second
+ </summary>
+	<remarks></remarks>
+</member><member name="F:mCore.BaudRate.BaudRate_1200">
+	<summary>
+ 1200 bits per second
+ </summary>
+	<remarks></remarks>
+</member><member name="F:mCore.BaudRate.BaudRate_2400">
+	<summary>
+ 2400 bits per second
+ </summary>
+	<remarks></remarks>
+</member><member name="F:mCore.BaudRate.BaudRate_4800">
+	<summary>
+ 4800 bits per second
+ </summary>
+	<remarks></remarks>
+</member><member name="F:mCore.BaudRate.BaudRate_9600">
+	<summary>
+ 9600 bits per second
+ </summary>
+	<remarks></remarks>
+</member><member name="F:mCore.BaudRate.BaudRate_14400">
+	<summary>
+ 14400 bits per second
+ </summary>
+	<remarks></remarks>
+</member><member name="F:mCore.BaudRate.BaudRate_19200">
+	<summary>
+ 19200 bits per second
+ </summary>
+	<remarks></remarks>
+</member><member name="F:mCore.BaudRate.BaudRate_38400">
+	<summary>
+ 38400 bits per second
+ </summary>
+	<remarks></remarks>
+</member><member name="F:mCore.BaudRate.BaudRate_57600">
+	<summary>
+ 57600 bits per second
+ </summary>
+	<remarks></remarks>
+</member><member name="F:mCore.BaudRate.BaudRate_115200">
+	<summary>
+ 115200 bits per second
+ </summary>
+	<remarks></remarks>
+</member><member name="F:mCore.BaudRate.BaudRate_230400">
+	<summary>
+ 230400 bits per second
+ </summary>
+	<remarks></remarks>
+</member><member name="F:mCore.BaudRate.BaudRate_460800">
+	<summary>
+ 460800 bits per second
+ </summary>
+	<remarks></remarks>
+</member><member name="F:mCore.BaudRate.BaudRate_921600">
+	<summary>
+ 921600 bits per second
+ </summary>
+	<remarks></remarks>
+</member><member name="T:mCore.BaudRate">
+	<summary>
+ Serial communication baudrate values
+ </summary>
+	<remarks></remarks>
+</member><member name="F:mCore.Parity.None">
+	<summary>
+ No parity check occurs
+ </summary>
+	<remarks></remarks>
+</member><member name="F:mCore.Parity.Odd">
+	<summary>
+ Sets the parity bit so that count of bits set is a odd number
+ </summary>
+	<remarks></remarks>
+</member><member name="F:mCore.Parity.Even">
+	<summary>
+ Sets the parity bit so that count of bits set is a even number
+ </summary>
+	<remarks></remarks>
+</member><member name="F:mCore.Parity.Mark">
+	<summary>
+ Leaves the parity bit set to 1
+ </summary>
+	<remarks></remarks>
+</member><member name="F:mCore.Parity.Space">
+	<summary>
+ Leaves the parity bit set to 0
+ </summary>
+	<remarks></remarks>
+</member><member name="T:mCore.Parity">
+	<summary>
+ Serial communication parity bit setting
+ </summary>
+	<remarks></remarks>
+</member><member name="F:mCore.DataBits.Four">
+	<summary>
+ Four bits per data byte
+ </summary>
+	<remarks></remarks>
+</member><member name="F:mCore.DataBits.Five">
+	<summary>
+ Five bits per data byte
+ </summary>
+	<remarks></remarks>
+</member><member name="F:mCore.DataBits.Six">
+	<summary>
+ Six bits per data byte
+ </summary>
+	<remarks></remarks>
+</member><member name="F:mCore.DataBits.Seven">
+	<summary>
+ Seven bits per data byte
+ </summary>
+	<remarks></remarks>
+</member><member name="F:mCore.DataBits.Eight">
+	<summary>
+ Eight bits per data byte
+ </summary>
+	<remarks></remarks>
+</member><member name="T:mCore.DataBits">
+	<summary>
+ Serial communication data size settings
+ </summary>
+	<remarks></remarks>
+</member><member name="F:mCore.StopBits.One">
+	<summary>
+ One stop bit is used
+ </summary>
+	<remarks></remarks>
+</member><member name="F:mCore.StopBits.Two">
+	<summary>
+ Two stop bits are used
+ </summary>
+	<remarks></remarks>
+</member><member name="F:mCore.StopBits.OnePointFive">
+	<summary>
+ 1.5 stop bits are used
+ </summary>
+	<remarks></remarks>
+</member><member name="T:mCore.StopBits">
+	<summary>
+ Serial communication data stop bits settings
+ </summary>
+	<remarks></remarks>
+</member><member name="F:mCore.FlowControl.None">
+	<summary>
+ No flow control
+ </summary>
+	<remarks></remarks>
+</member><member name="F:mCore.FlowControl.RTS_CTS">
+	<summary>
+ Hardware flow control using RTS/CTS lines
+ </summary>
+	<remarks></remarks>
+</member><member name="F:mCore.FlowControl.Xon_Xoff">
+	<summary>
+ Software flow control using Xon/Xoff characters
+ </summary>
+	<remarks></remarks>
+</member><member name="T:mCore.FlowControl">
+	<summary>
+ Serial communication flow control
+ </summary>
+	<remarks></remarks>
+</member><member name="F:mCore.LongMessage.Truncate">
+	<summary>
+ Truncates long messages to fit in one single SMS
+ </summary>
+	<remarks></remarks>
+</member><member name="F:mCore.LongMessage.SimpleSplit">
+	<summary>
+ Splits long messages in to multiple SMS so that each one has a length within the maximum allowed length per SMS
+ </summary>
+	<remarks></remarks>
+</member><member name="F:mCore.LongMessage.FormattedSplit">
+	<summary>
+ Splits long messages in to multiple SMS with pagination so that each one has a length within the maximum allowed length per SMS 
+ </summary>
+	<remarks></remarks>
+</member><member name="F:mCore.LongMessage.Concatenate">
+	<summary>
+ Sends long messages as a concatenated multiple messages which display as one single message on recipient's mobile device
+ </summary>
+	<remarks></remarks>
+</member><member name="T:mCore.LongMessage">
+	<summary>
+ Long message actions
+ </summary>
+	<remarks></remarks>
+</member><member name="F:mCore.Encoding.GSM_Default_7Bit">
+	<summary>
+ 7 bit default alphabet specified by GSM 03.38
+ </summary>
+	<remarks></remarks>
+</member><member name="F:mCore.Encoding.ANSI_8Bit">
+	<summary>
+ 8 bit character encoding
+ </summary>
+	<remarks></remarks>
+</member><member name="F:mCore.Encoding.Unicode_16Bit">
+	<summary>
+ 16 bit UCS2 data encoding
+ </summary>
+	<remarks></remarks>
+</member><member name="T:mCore.Encoding">
+	<summary>
+ Type of message encoding
+ </summary>
+	<remarks></remarks>
+</member><member name="F:mCore.LogType.NoLog">
+	<summary>
+ No error and/or event logging
+ </summary>
+	<remarks></remarks>
+</member><member name="F:mCore.LogType.ErrorLog">
+	<summary>
+ Only error messages are logged
+ </summary>
+	<remarks></remarks>
+</member><member name="F:mCore.LogType.ErrorEventLog">
+	<summary>
+ Errors and key process stages are logged
+ </summary>
+	<remarks></remarks>
+</member><member name="T:mCore.LogType">
+	<summary>
+ Type of log file
+ </summary>
+	<remarks></remarks>
+</member><member name="F:mCore.MessageMemory.SM">
+	<summary>
+ SIM memory
+ </summary>
+	<remarks></remarks>
+</member><member name="F:mCore.MessageMemory.ME">
+	<summary>
+ ME (Phone) memory
+ </summary>
+	<remarks></remarks>
+</member><member name="F:mCore.MessageMemory.MT">
+	<summary>
+ Mobile terminal memory (ME + SM)
+ </summary>
+	<remarks></remarks>
+</member><member name="F:mCore.MessageMemory.BM">
+	<summary>
+ Broadcast Memory
+ </summary>
+	<remarks></remarks>
+</member><member name="T:mCore.MessageMemory">
+	<summary>
+ Message memory type
+ </summary>
+	<remarks></remarks>
+</member><member name="F:mCore.QueuePriority.High">
+	<summary>
+ Highest priority
+ </summary>
+	<remarks></remarks>
+</member><member name="F:mCore.QueuePriority.Normal">
+	<summary>
+ Normal priority (default)
+ </summary>
+	<remarks></remarks>
+</member><member name="F:mCore.QueuePriority.Low">
+	<summary>
+ Low property
+ </summary>
+	<remarks></remarks>
+</member><member name="T:mCore.QueuePriority">
+	<summary>
+ Queued message sending priority
+ </summary>
+	<remarks></remarks>
+</member><member name="F:mCore.USSDStatus.NoFurtherUserActionRequired">
+	<summary>
+ No further user action required (Network initiated USSD-Notify, or no further information required after mobile initiated operation)
+ </summary>
+	<remarks></remarks>
+</member><member name="F:mCore.USSDStatus.FurtherUserActionRequired">
+	<summary>
+ Further user action required (network initiated USSD-Request, or further information required after mobile initiated operation)
+ </summary>
+	<remarks></remarks>
+</member><member name="F:mCore.USSDStatus.USSDTerminatedByNetwork">
+	<summary>
+ USSD terminated by network
+ </summary>
+	<remarks></remarks>
+</member><member name="F:mCore.USSDStatus.OtherLocalClientHasResponded">
+	<summary>
+ Other local client has responded
+ </summary>
+	<remarks></remarks>
+</member><member name="F:mCore.USSDStatus.OperationNotSupported">
+	<summary>
+ Operation not supported
+ </summary>
+	<remarks></remarks>
+</member><member name="F:mCore.USSDStatus.NetworkTimeout">
+	<summary>
+ Network time out
+ </summary>
+	<remarks></remarks>
+</member><member name="T:mCore.USSDStatus">
+	<summary>
+ Status reported by incoming USSD message
+ </summary>
+	<remarks></remarks>
+</member><member name="F:mCore.MessageType.ReceivedUnreadMessages">
+	<summary>
+ Received unread messages
+ </summary>
+	<remarks></remarks>
+</member><member name="F:mCore.MessageType.ReceivedReadMessages">
+	<summary>
+ Received read messages
+ </summary>
+	<remarks></remarks>
+</member><member name="F:mCore.MessageType.ReceivedAllMessages">
+	<summary>
+ Received read and unread messages
+ </summary>
+	<remarks></remarks>
+</member><member name="T:mCore.MessageType">
+	<summary>
+ Type of messages to read from the mobile device
+ </summary>
+	<remarks></remarks>
+</member><member name="F:mCore.WapPushAction.SignalLow">
+	<summary>
+ 'signal-low' as per WAP-167 Service Indication specification
+ </summary>
+	<remarks></remarks>
+</member><member name="F:mCore.WapPushAction.SignalMedium">
+	<summary>
+ 'signal-medium' as per WAP-167 Service Indication specification
+ </summary>
+	<remarks></remarks>
+</member><member name="F:mCore.WapPushAction.SignalHigh">
+	<summary>
+ 'signal-high' as per WAP-167 Service Indication specification
+ </summary>
+	<remarks></remarks>
+</member><member name="T:mCore.WapPushAction">
+	<summary>
+ WAP Push action to be taken values
+ </summary>
+	<remarks></remarks>
+</member><member name="P:mCore.License.Company">
+	<summary>
+ Gets or sets the mCore licensee company name string
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.License.Key">
+	<summary>
+ Gets or sets the mCore license key string
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.License.LicenseType">
+	<summary>
+ Gets or sets the mCore license type
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.License.IsLicensed">
+	<summary>
+ Gets a value indicating if the license parameters are valid
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.PictureSMS.BitmapFile">
+	<summary>
+ Gets or sets the Bitmap file to send as picture SMS
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.PictureSMS.Destination">
+	<summary>
+ Gets or sets the destination mobile phone number to which the picture SMS is to be sent
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.PictureSMS.Text">
+	<summary>
+ Gets or sets the text to send with the picture SMS
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:mCore.PictureSMS.Send">
+	<summary>
+ Sends the picture SMS
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:mCore.PictureSMS.SendToQueue">
+	<summary>
+ Sends the picture SMS to message queue with normal priority
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:mCore.PictureSMS.SendToQueue(mCore.QueuePriority)">
+	<summary>
+ Sends the picture SMS to message queue with option to define the message priority
+ </summary>
+	<param name="Priority"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="E:mCore.SMS.NewMessageReceived">
+	<summary>
+ Represents the method that will handle the message received event of a mCore.SMS object
+ </summary>
+	<remarks></remarks>
+</member><member name="E:mCore.SMS.NewDeliveryReport">
+	<summary>
+ Represents the method that will handle the delivery report event of a mCore.SMS object
+ </summary>
+	<remarks></remarks>
+</member><member name="E:mCore.SMS.NewIncomingCall">
+	<summary>
+ Represents the method that will handle the new incoming call event of a mCore.SMS object
+ </summary>
+	<remarks></remarks>
+</member><member name="E:mCore.SMS.NewUSSDReceived">
+	<summary>
+ Represents the method that will handle the new USSD message received event of a mCore.SMS object
+ </summary>
+	<remarks></remarks>
+</member><member name="E:mCore.SMS.QueueSMSSent">
+	<summary>
+ Represents the method that will handle the send report event of a queued SMS
+ </summary>
+	<remarks></remarks>
+</member><member name="E:mCore.SMS.QueueWapPushSent">
+	<summary>
+ Represents the method that will handle the send report event of a queued WAP Push message
+ </summary>
+	<remarks></remarks>
+</member><member name="E:mCore.SMS.QueueVCardSent">
+	<summary>
+ Represents the method that will handle the send report event of a queued vCard message
+ </summary>
+	<remarks></remarks>
+</member><member name="E:mCore.SMS.QueueVCalendarSent">
+	<summary>
+ Represents the method that will handle the send report event of a queued vCalendar message
+ </summary>
+	<remarks></remarks>
+</member><member name="E:mCore.SMS.QueueSmartMessageSent">
+	<summary>
+ Represents the method that will handle the send report event of a queued smart message
+ </summary>
+	<remarks></remarks>
+</member><member name="E:mCore.SMS.QueuePictureSMSSent">
+	<summary>
+ Represents the method that will handle the send report event of a queued Picture SMS
+ </summary>
+	<remarks></remarks>
+</member><member name="E:mCore.SMS.QueueSMSSending">
+	<summary>
+ Represents the method that will handle the start event of sending a queued SMS
+ </summary>
+	<remarks></remarks>
+</member><member name="E:mCore.SMS.QueueWapPushSending">
+	<summary>
+ Represents the method that will handle the start event of sending a queued WAP Push
+ </summary>
+	<remarks></remarks>
+</member><member name="E:mCore.SMS.QueueVCardSending">
+	<summary>
+ Represents the method that will handle the start event of sending a queued vCard message
+ </summary>
+	<remarks></remarks>
+</member><member name="E:mCore.SMS.QueueVCalendarSending">
+	<summary>
+ Represents the method that will handle the start event of sending a queued vCalendar message
+ </summary>
+	<remarks></remarks>
+</member><member name="E:mCore.SMS.QueueSmartMessageSending">
+	<summary>
+ Represents the method that will handle the start event of sending a queued smart message
+ </summary>
+	<remarks></remarks>
+</member><member name="E:mCore.SMS.QueuePictureSMSSending">
+	<summary>
+ Represents the method that will handle the start event of sending a queued Picture SMS
+ </summary>
+	<remarks></remarks>
+</member><member name="F:mCore.SMS.EnumBaudRate.BaudRate_110">
+	<summary>
+ 110 bits per second
+ </summary>
+	<remarks></remarks>
+</member><member name="F:mCore.SMS.EnumBaudRate.BaudRate_300">
+	<summary>
+ 300 bits per second
+ </summary>
+	<remarks></remarks>
+</member><member name="F:mCore.SMS.EnumBaudRate.BaudRate_1200">
+	<summary>
+ 1200 bits per second
+ </summary>
+	<remarks></remarks>
+</member><member name="F:mCore.SMS.EnumBaudRate.BaudRate_2400">
+	<summary>
+ 2400 bits per second
+ </summary>
+	<remarks></remarks>
+</member><member name="F:mCore.SMS.EnumBaudRate.BaudRate_4800">
+	<summary>
+ 4800 bits per second
+ </summary>
+	<remarks></remarks>
+</member><member name="F:mCore.SMS.EnumBaudRate.BaudRate_9600">
+	<summary>
+ 9600 bits per second
+ </summary>
+	<remarks></remarks>
+</member><member name="F:mCore.SMS.EnumBaudRate.BaudRate_14400">
+	<summary>
+ 14400 bits per second
+ </summary>
+	<remarks></remarks>
+</member><member name="F:mCore.SMS.EnumBaudRate.BaudRate_19200">
+	<summary>
+ 19200 bits per second
+ </summary>
+	<remarks></remarks>
+</member><member name="F:mCore.SMS.EnumBaudRate.BaudRate_38400">
+	<summary>
+ 38400 bits per second
+ </summary>
+	<remarks></remarks>
+</member><member name="F:mCore.SMS.EnumBaudRate.BaudRate_57600">
+	<summary>
+ 57600 bits per second
+ </summary>
+	<remarks></remarks>
+</member><member name="F:mCore.SMS.EnumBaudRate.BaudRate_115200">
+	<summary>
+ 115200 bits per second
+ </summary>
+	<remarks></remarks>
+</member><member name="F:mCore.SMS.EnumBaudRate.BaudRate_230400">
+	<summary>
+ 230400 bits per second
+ </summary>
+	<remarks></remarks>
+</member><member name="F:mCore.SMS.EnumBaudRate.BaudRate_460800">
+	<summary>
+ 460800 bits per second
+ </summary>
+	<remarks></remarks>
+</member><member name="F:mCore.SMS.EnumBaudRate.BaudRate_921600">
+	<summary>
+ 921600 bits per second
+ </summary>
+	<remarks></remarks>
+</member><member name="T:mCore.SMS.EnumBaudRate">
+	<summary>
+ Serial communication baudrate values
+ </summary>
+	<remarks></remarks>
+</member><member name="F:mCore.SMS.EnumParity.None">
+	<summary>
+ No parity check occurs
+ </summary>
+	<remarks></remarks>
+</member><member name="F:mCore.SMS.EnumParity.Odd">
+	<summary>
+ Sets the parity bit so that count of bits set is a odd number
+ </summary>
+	<remarks></remarks>
+</member><member name="F:mCore.SMS.EnumParity.Even">
+	<summary>
+ Sets the parity bit so that count of bits set is a even number
+ </summary>
+	<remarks></remarks>
+</member><member name="F:mCore.SMS.EnumParity.Mark">
+	<summary>
+ Leaves the parity bit set to 1
+ </summary>
+	<remarks></remarks>
+</member><member name="F:mCore.SMS.EnumParity.Space">
+	<summary>
+ Leaves the parity bit set to 0
+ </summary>
+	<remarks></remarks>
+</member><member name="T:mCore.SMS.EnumParity">
+	<summary>
+ Serial communication parity bit setting
+ </summary>
+	<remarks></remarks>
+</member><member name="F:mCore.SMS.EnumDataBits.Four">
+	<summary>
+ Four bits per data byte
+ </summary>
+	<remarks></remarks>
+</member><member name="F:mCore.SMS.EnumDataBits.Five">
+	<summary>
+ Five bits per data byte
+ </summary>
+	<remarks></remarks>
+</member><member name="F:mCore.SMS.EnumDataBits.Six">
+	<summary>
+ Six bits per data byte
+ </summary>
+	<remarks></remarks>
+</member><member name="F:mCore.SMS.EnumDataBits.Seven">
+	<summary>
+ Seven bits per data byte
+ </summary>
+	<remarks></remarks>
+</member><member name="F:mCore.SMS.EnumDataBits.Eight">
+	<summary>
+ Eight bits per data byte
+ </summary>
+	<remarks></remarks>
+</member><member name="T:mCore.SMS.EnumDataBits">
+	<summary>
+ Serial communication data size settings
+ </summary>
+	<remarks></remarks>
+</member><member name="F:mCore.SMS.EnumStopBits.One">
+	<summary>
+ One stop bit is used
+ </summary>
+	<remarks></remarks>
+</member><member name="F:mCore.SMS.EnumStopBits.Two">
+	<summary>
+ Two stop bits are used
+ </summary>
+	<remarks></remarks>
+</member><member name="F:mCore.SMS.EnumStopBits.OnePointFive">
+	<summary>
+ 1.5 stop bits are used
+ </summary>
+	<remarks></remarks>
+</member><member name="T:mCore.SMS.EnumStopBits">
+	<summary>
+ Serial communication data stop bits settings
+ </summary>
+	<remarks></remarks>
+</member><member name="F:mCore.SMS.EnumFlowControl.None">
+	<summary>
+ No flow control
+ </summary>
+	<remarks></remarks>
+</member><member name="F:mCore.SMS.EnumFlowControl.RTS_CTS">
+	<summary>
+ Hardware flow control using RTS/CTS lines
+ </summary>
+	<remarks></remarks>
+</member><member name="F:mCore.SMS.EnumFlowControl.Xon_Xoff">
+	<summary>
+ Software flow control using Xon/Xoff characters
+ </summary>
+	<remarks></remarks>
+</member><member name="T:mCore.SMS.EnumFlowControl">
+	<summary>
+ Serial communication flow control
+ </summary>
+	<remarks></remarks>
+</member><member name="F:mCore.SMS.EnumLongMessage.Truncate">
+	<summary>
+ Truncates long messages to fit in one single SMS
+ </summary>
+	<remarks></remarks>
+</member><member name="F:mCore.SMS.EnumLongMessage.SimpleSplit">
+	<summary>
+ Splits long messages in to multiple SMS so that each one has a length within the maximum allowed length per SMS
+ </summary>
+	<remarks></remarks>
+</member><member name="F:mCore.SMS.EnumLongMessage.FormattedSplit">
+	<summary>
+ Splits long messages in to multiple SMS with pagination so that each one has a length within the maximum allowed length per SMS 
+ </summary>
+	<remarks></remarks>
+</member><member name="F:mCore.SMS.EnumLongMessage.Concatenate">
+	<summary>
+ Sends long messages as a concatenated multiple messages which display as one single message on recipient's mobile device
+ </summary>
+	<remarks></remarks>
+</member><member name="T:mCore.SMS.EnumLongMessage">
+	<summary>
+ Long message actions
+ </summary>
+	<remarks></remarks>
+</member><member name="F:mCore.SMS.EnumEncoding.GSM_Default_7Bit">
+	<summary>
+ 7 bit default alphabet specified by GSM 03.38
+ </summary>
+	<remarks></remarks>
+</member><member name="F:mCore.SMS.EnumEncoding.ANSI_8Bit">
+	<summary>
+ 8 bit character encoding
+ </summary>
+	<remarks></remarks>
+</member><member name="F:mCore.SMS.EnumEncoding.Unicode_16Bit">
+	<summary>
+ 16 bit UCS2 data encoding
+ </summary>
+	<remarks></remarks>
+</member><member name="T:mCore.SMS.EnumEncoding">
+	<summary>
+ Type of message encoding
+ </summary>
+	<remarks></remarks>
+</member><member name="F:mCore.SMS.EnumLogType.NoLog">
+	<summary>
+ No error and/or event logging
+ </summary>
+	<remarks></remarks>
+</member><member name="F:mCore.SMS.EnumLogType.ErrorLog">
+	<summary>
+ Only error messages are logged
+ </summary>
+	<remarks></remarks>
+</member><member name="F:mCore.SMS.EnumLogType.ErrorEventLog">
+	<summary>
+ Errors and key process stages are logged
+ </summary>
+	<remarks></remarks>
+</member><member name="T:mCore.SMS.EnumLogType">
+	<summary>
+ Type of log file
+ </summary>
+	<remarks></remarks>
+</member><member name="F:mCore.SMS.EnumMessageMemory.SM">
+	<summary>
+ SIM memory
+ </summary>
+	<remarks></remarks>
+</member><member name="F:mCore.SMS.EnumMessageMemory.ME">
+	<summary>
+ ME (Phone) memory
+ </summary>
+	<remarks></remarks>
+</member><member name="F:mCore.SMS.EnumMessageMemory.MT">
+	<summary>
+ Mobile terminal memory (ME + SM)
+ </summary>
+	<remarks></remarks>
+</member><member name="T:mCore.SMS.EnumMessageMemory">
+	<summary>
+ Message memory type
+ </summary>
+	<remarks></remarks>
+</member><member name="F:mCore.SMS.EnumQueuePriority.High">
+	<summary>
+ Highest priority
+ </summary>
+	<remarks></remarks>
+</member><member name="F:mCore.SMS.EnumQueuePriority.Normal">
+	<summary>
+ Normal priority (default)
+ </summary>
+	<remarks></remarks>
+</member><member name="F:mCore.SMS.EnumQueuePriority.Low">
+	<summary>
+ Low property
+ </summary>
+	<remarks></remarks>
+</member><member name="T:mCore.SMS.EnumQueuePriority">
+	<summary>
+ Queued message sending priority
+ </summary>
+	<remarks></remarks>
+</member><member name="F:mCore.SMS.EnumUSSDStatus.NoFurtherUserActionRequired">
+	<summary>
+ No further user action required (Network initiated USSD-Notify, or no further information required after mobile initiated operation)
+ </summary>
+	<remarks></remarks>
+</member><member name="F:mCore.SMS.EnumUSSDStatus.FurtherUserActionRequired">
+	<summary>
+ Further user action required (network initiated USSD-Request, or further information required after mobile initiated operation)
+ </summary>
+	<remarks></remarks>
+</member><member name="F:mCore.SMS.EnumUSSDStatus.USSDTerminatedByNetwork">
+	<summary>
+ USSD terminated by network
+ </summary>
+	<remarks></remarks>
+</member><member name="F:mCore.SMS.EnumUSSDStatus.OtherLocalClientHasResponded">
+	<summary>
+ Other local client has responded
+ </summary>
+	<remarks></remarks>
+</member><member name="F:mCore.SMS.EnumUSSDStatus.OperationNotSupported">
+	<summary>
+ Operation not supported
+ </summary>
+	<remarks></remarks>
+</member><member name="F:mCore.SMS.EnumUSSDStatus.NetworkTimeout">
+	<summary>
+ Network time out
+ </summary>
+	<remarks></remarks>
+</member><member name="T:mCore.SMS.EnumUSSDStatus">
+	<summary>
+ Status reported by incoming USSD message
+ </summary>
+	<remarks></remarks>
+</member><member name="M:mCore.SMS.WapPush">
+	<summary>
+ Class for sending wap push message
+ </summary>
+	<returns>mCore.WapPush Class</returns>
+	<remarks></remarks>
+</member><member name="M:mCore.SMS.vCard">
+	<summary>
+ Class for sending vCard message
+ </summary>
+	<returns>mCore.vCard Class</returns>
+	<remarks></remarks>
+</member><member name="M:mCore.SMS.vCalendar">
+	<summary>
+ Class for sending vCalendar message
+ </summary>
+	<returns>mCore.vCalendar Class</returns>
+	<remarks></remarks>
+</member><member name="M:mCore.SMS.PictureSMS">
+	<summary>
+ Class for sending Picture SMS
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:mCore.SMS.License">
+	<summary>
+ License class for setting and validating mCore license parameters
+ </summary>
+	<returns>mCore.License Class</returns>
+	<remarks></remarks>
+</member><member name="M:mCore.SMS.Queue">
+	<summary>
+ Queue class for sending messages in a queue
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:mCore.SMS.Inbox">
+	<summary>
+ Class for accessing the Inbox as a collection of incoming SMS
+ </summary>
+	<returns>mCore.Inbox Class</returns>
+	<remarks></remarks>
+</member><member name="M:mCore.SMS.Inbox(System.Int32)">
+	<summary>
+ Access the incoming SMS in Inbox defined by a index
+ </summary>
+	<param name="Index">Message index</param>
+	<returns>mCore.Message Class</returns>
+	<remarks></remarks>
+</member><member name="P:mCore.SMS.About">
+	<summary>
+ Gets a text string containing mCore version and license detail
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.SMS.Port">
+	<summary>
+ Gets or sets the serial port name for GSM modem communication
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks>Eg. "COM1", "COM2", "COM3",..., "COM256" (Default value "COM1")</remarks>
+</member><member name="P:mCore.SMS.BaudRate">
+	<summary>
+ Gets or sets the serial communication baud rate
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.SMS.Parity">
+	<summary>
+ Gets or sets the parity checking protocol for serial communication
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.SMS.DataBits">
+	<summary>
+ Gets or sets the standard length of databits per byte for serial communication
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.SMS.StopBits">
+	<summary>
+ Gets or sets the number of stopbits per byte for serial communication
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.SMS.FlowControl">
+	<summary>
+ Gets or sets the serial communication flow control
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.SMS.Timeout">
+	<summary>
+ Gets or sets the serial communication timeout in milliseconds
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks>Accepts a value between 1 and 60000 millisecond</remarks>
+</member><member name="P:mCore.SMS.ReadIntervalTimeout">
+	<summary>
+ Gets or sets the maximum time in milliseconds allowed to elapse between arrival of two characters on the serial port from GSM modem
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.SMS.ThreadLockTimeout">
+	<summary>
+ Gets or sets the timeout value in milliseconds for various thread locks within mCore
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.SMS.ModemCommandDelay">
+	<summary>
+ Gets or sets the minimum delay in milliseconds between two consecutive AT commands sent to modem
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:mCore.SMS.Connect">
+	<summary>
+ Opens the serial communication port and initializes the GSM modem
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:mCore.SMS.Disconnect">
+	<summary>
+ Closes the serial communication port
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.SMS.IsConnected">
+	<summary>
+ Gets a value indicating whether serial port is open and modem is connected
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks>Checks if the serial port is open and if the modem is connected</remarks>
+</member><member name="P:mCore.SMS.MessageMemory">
+	<summary>
+ Gets or sets the type of memory from where incoming SMS are to be read
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks>Only SIM memory or Phone(ME) memory can be selected</remarks>
+</member><member name="P:mCore.SMS.Manufacturer">
+	<summary>
+ Gets the GSM modem manufacturer name
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.SMS.Model">
+	<summary>
+ Gets the GSM modem model
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.SMS.IMEI">
+	<summary>
+ Gets the unique IMEI number of the GSM modem
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.SMS.IMSI">
+	<summary>
+ Gets the unique IMSI of the SIM used in the GSM modem
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.SMS.Revision">
+	<summary>
+ Gets the GSM modem firmware revision
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.SMS.SignalStrength">
+	<summary>
+ Gets the GSM network signal strength in percent
+ </summary>
+	<value></value>
+	<returns>A value between 0 and 100</returns>
+	<remarks>Returns a value of (-1) if no signal or error in detecting signal strength</remarks>
+</member><member name="P:mCore.SMS.SignalStrengthDB">
+	<summary>
+ Gets the GSM network signal strength in dB
+ </summary>
+	<value></value>
+	<returns>A value between -113 and -51 which represents the signal strength in dB.</returns>
+	<remarks>Retirns the value 99 if there is a error or no signal strength is detected</remarks>
+</member><member name="P:mCore.SMS.SMSC">
+	<summary>
+ Gets or sets the SMS service centre number
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.SMS.Network">
+	<summary>
+ Gets the GSM network operator identification
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.SMS.Validity">
+	<summary>
+ Gets or sets the validity period of the outgoing SMS
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.SMS.LongMessage">
+	<summary>
+ Gets or sets how messages longer than one SMS are to be sent
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks>Options available are to Truncate, Split, Formatted Split and Concatenate</remarks>
+</member><member name="P:mCore.SMS.PIN">
+	<summary>
+ Sets the PIN used for the SIM 
+ </summary>
+	<value></value>
+	<remarks></remarks>
+</member><member name="P:mCore.SMS.DisableCheckPIN">
+	<summary>
+ Gets or sets whether checking of PIN status on serial port connect is to be disabled
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.SMS.DelayAfterPIN">
+	<summary>
+ Gets or sets the delay in milliseconds for which mCore will wait after sending PIN
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.SMS.SendDelay">
+	<summary>
+ Gets or sets the delay in milliseconds between two consecutive SMS
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.SMS.SendRetry">
+	<summary>
+ Gets or sets the number of attempts before discarding a message to be sent
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.SMS.Encoding">
+	<summary>
+ Gets or sets the message encoding type
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.SMS.ReconnectOnSendError">
+	<summary>
+ Gets or sets a boolean value to define if the modem port is disconnected and reconnected in case of send message error
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:mCore.SMS.SendUSSD(System.String)">
+	<summary>
+ Sends a USSD command to the network
+ </summary>
+	<param name="USSD_Command"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:mCore.SMS.CancelUSSDSession">
+	<summary>
+ Cancels active USSD session, if any
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:mCore.SMS.SendSMS(System.String,System.String)">
+	<summary>
+ Sends a SMS message
+ </summary>
+	<param name="DestinationNumber">Destination phone number</param>
+	<param name="TextMessage">Text message to be sent</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:mCore.SMS.SendSMS(System.String,System.String,System.Boolean)">
+	<summary>
+ Sends a SMS message with option to send a alert/flash message for instant display
+ </summary>
+	<param name="DestinationNumber">Destination phone number</param>
+	<param name="TextMessage">Text message to be sent</param>
+	<param name="AlertMessage">Alert message (immediate display)</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:mCore.SMS.SendSmartMessage(System.String,System.String,System.Int32)">
+	<summary>
+ Sends a smart SMS to a specified destination application port of a mobile phone
+ </summary>
+	<param name="DestinationNumber">Destination mobile phone number</param>
+	<param name="TextMessage">Text message to be sent</param>
+	<param name="DestinationPort">Destination phone application port (0 to 65535)</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:mCore.SMS.SendSmartMessage(System.String,System.String,System.Int32,System.Int32)">
+	<summary>
+ Sends a smart SMS to a specified destination application port of a mobile phone
+ </summary>
+	<param name="DestinationNumber">Destination mobile phone number</param>
+	<param name="TextMessage">Text message to be sent</param>
+	<param name="DestinationPort">Destination phone application port (0 to 65535)</param>
+	<param name="SourcePort">Source port (0 to 65535)</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:mCore.SMS.SendSmartMessageToQueue(System.String,System.String,System.Int32)">
+	<summary>
+ Send a smart SMS to message queue with normal message queue priority
+ </summary>
+	<param name="DestinationNumber">Destination mobile phone number</param>
+	<param name="TextMessage">Text message to be sent</param>
+	<param name="DestinationPort">Destination phone application port (0 to 65535)</param>
+	<returns>Unique key as string that identifies the message in the queue</returns>
+	<remarks></remarks>
+</member><member name="M:mCore.SMS.SendSmartMessageToQueue(System.String,System.String,System.Int32,System.Int32)">
+	<summary>
+ Send a smart SMS to message queue with normal message queue priority
+ </summary>
+	<param name="DestinationNumber">Destination mobile phone number</param>
+	<param name="TextMessage">Text message to be sent</param>
+	<param name="DestinationPort">Destination phone application port (0 to 65535)</param>
+	<param name="SourcePort">Source port (0 to 65535)</param>
+	<returns>Unique key as string that identifies the message in the queue</returns>
+	<remarks></remarks>
+</member><member name="M:mCore.SMS.SendSmartMessageToQueue(System.String,System.String,System.Int32,mCore.QueuePriority)">
+	<summary>
+ Send a smart SMS to message queue with a option to define queue priority for the message
+ </summary>
+	<param name="DestinationNumber">Destination mobile phone number</param>
+	<param name="TextMessage">Text message to be sent</param>
+	<param name="DestinationPort">Destination phone application port (0 to 65535)</param>
+	<param name="Priority">Queue priority</param>
+	<returns>Unique key as string that identifies the message in the queue</returns>
+	<remarks></remarks>
+</member><member name="M:mCore.SMS.SendSmartMessageToQueue(System.String,System.String,System.Int32,System.Int32,mCore.QueuePriority)">
+	<summary>
+ Send a smart SMS to message queue with a option to define queue priority for the message
+ </summary>
+	<param name="DestinationNumber">Destination mobile phone number</param>
+	<param name="TextMessage">Text message to be sent</param>
+	<param name="DestinationPort">Destination phone application port (0 to 65535)</param>
+	<param name="SourcePort">Source port (0 to 65535)</param>
+	<param name="Priority">Queue priority</param>
+	<returns>Unique key as string that identifies the message in the queue</returns>
+	<remarks></remarks>
+</member><member name="M:mCore.SMS.SendSMSToQueue(System.String,System.String)">
+	<summary>
+ Send a SMS to message queue with normal message queue priority
+ </summary>
+	<param name="DestinationNumber">Destination phone number</param>
+	<param name="TextMessage">Text message to be sent</param>
+	<returns>Unique key as string that identifies the message in the queue</returns>
+	<remarks></remarks>
+</member><member name="M:mCore.SMS.SendSMSToQueue(System.String,System.String,mCore.QueuePriority)">
+	<summary>
+ Send a SMS to message queue with a option to define queue priority for the message
+ </summary>
+	<param name="DestinationNumber">Destination phone number</param>
+	<param name="TextMessage">Text message to be sent</param>
+	<param name="Priority">Queue priority</param>
+	<returns>Unique key as string that identifies the message in the queue</returns>
+	<remarks></remarks>
+</member><member name="M:mCore.SMS.SendSMSToQueue(System.String,System.String,mCore.QueuePriority,System.Boolean)">
+	<summary>
+ Send a SMS to message queue with a option to send a alert/flash message for instant display and define queue priority for the message
+ </summary>
+	<param name="DestinationNumber">Destination phone number</param>
+	<param name="TextMessage">Text message to be sent</param>
+	<param name="Priority">Queue priority</param>
+	<param name="AlertMessage">Alert message (immediate display)</param>
+	<returns>Unique key as string that identifies the message in the queue</returns>
+	<remarks></remarks>
+</member><member name="P:mCore.SMS.BatteryLevel">
+	<summary>
+ Gets GSM modem battery level in percent (if present)
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.SMS.OwnNumber">
+	<summary>
+ Gets MSISDN number of the SIM card used in the GSM modem
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.SMS.DebugMode">
+	<summary>
+ Gets or sets a value to define the debug mode for mCore
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.SMS.LogType">
+	<summary>
+ Gets or sets the type of log
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.SMS.LogFolderPath">
+	<summary>
+ Gets or sets the log folder path
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.SMS.LogSize">
+	<summary>
+ Gets the number of lines in the log file
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:mCore.SMS.ClearLog">
+	<summary>
+ Clears the log file by deleting all log entries
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:mCore.SMS.ClearLog(System.Int32)">
+	<summary>
+ Clears the log file and keeps only last number entries defined by parameter KeepLinesInLog)
+ </summary>
+	<param name="KeepLinesInLog">Number of latest lines to keep</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:mCore.SMS.IsError">
+	<summary>
+ Gets the value indicating if there was a error while performing the last action
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:mCore.SMS.IsError(System.Boolean)">
+	<summary>
+ Gets the value indicating if there was a error while performing the last action with the option of displaying a error message box
+ </summary>
+	<param name="ShowMsgBox">Whether to display error message box if there was a error</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:mCore.SMS.IsError(System.Boolean,System.String)">
+	<summary>
+ Gets the value indicating if there was a error while performing the last action with the option of displaying a error message box
+ </summary>
+	<param name="ShowMsgBox">Whether to display error message box if there was a error</param>
+	<param name="MsgBoxTitle">Message box title</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.SMS.ErrorCode">
+	<summary>
+ Gets the latest error code
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.SMS.ErrorDescription">
+	<summary>
+ Gets the latest error description
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.SMS.ModemInitString">
+	<summary>
+ Gets or sets the modem initialization AT command string
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:mCore.SMS.Command(System.String)">
+	<summary>
+ Sends AT command to the GSM modem
+ </summary>
+	<param name="ATCommand">AT command to send</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.SMS.DeliveryReport">
+	<summary>
+ Gets or sets a value to define whether to request delivery report for outgoing SMS
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.SMS.NewMessageIndication">
+	<summary>
+ Sets or gets a value to define whether a event should be raised whenever a new SMS is received
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.SMS.NewUSSDIndication">
+	<summary>
+ Sets or gets a value to define whether a event should be raised whenever a new USSD message is received
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.SMS.NewMessageConcatenate">
+	<summary>
+ Gets or sets a value to define if new message event should be for parts of concatenated message or only for the complete message
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.SMS.AutoDeleteNewMessage">
+	<summary>
+ Sets or gets a value to define whether new messages should be deleted automatically after raising event
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.SMS.IncomingCallIndication">
+	<summary>
+ Sets or gets a value to define whether NewIncomingCall event should be enabled for new incoming calls
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:mCore.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:mCore.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="F:mCore.Inbox.EnumMessageType.ReceivedUnreadMessages">
+	<summary>
+ Received unread messages
+ </summary>
+	<remarks></remarks>
+</member><member name="F:mCore.Inbox.EnumMessageType.ReceivedReadMessages">
+	<summary>
+ Received read messages
+ </summary>
+	<remarks></remarks>
+</member><member name="F:mCore.Inbox.EnumMessageType.ReceivedAllMessages">
+	<summary>
+ Received read and unread messages
+ </summary>
+	<remarks></remarks>
+</member><member name="T:mCore.Inbox.EnumMessageType">
+	<summary>
+ Type of messages to read from the mobile device
+ </summary>
+	<remarks></remarks>
+</member><member name="M:mCore.Inbox.Message(System.Int32)">
+	<summary>
+ SMS message in Inbox at location defined by parameter Index
+ </summary>
+	<param name="Index">Message Index</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.Inbox.Concatenate">
+	<summary>
+ Gets or sets a value to define if concatenated incoming SMS should be presented as a single concatenated message or multiple messages
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:mCore.Inbox.Refresh">
+	<summary>
+ Reads all read and unread messages from the defined message memory and store them in mCore Inbox
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:mCore.Inbox.Refresh(mCore.MessageType)">
+	<summary>
+ Reads specific type of messages from the defined message memory and store them in mCore Inbox
+ </summary>
+	<param name="ReadMessageType">Message type to retrieve</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:mCore.Inbox.Refresh(mCore.MessageType,System.Boolean)">
+	<summary>
+ Reads specific type of messages from the defined message memory and store them in mCore Inbox with option to clean up smart messages (WAP Push, Ringtone etc) from message memory
+ </summary>
+	<param name="ReadMessageType">Message type to retrieve</param>
+	<param name="CleanUpMemory">Clean up smart messages and delivery reports in message memory</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.Inbox.HasMessages">
+	<summary>
+ Gets a value to indicate if mCore Inbox has any message
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.Inbox.IsEmpty">
+	<summary>
+ Gets a value to indicate if mCore Inbox is empty
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.Inbox.Count">
+	<summary>
+ Gets a integer value indicating the number of messages in mCore Inbox
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:mCore.Inbox.Clear">
+	<summary>
+ Clears mCore Inbox and permanently deletes all corresponding messages from defined message memory
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.Message.Index">
+	<summary>
+ Gets the message index in mCore Inbox
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.Message.Phone">
+	<summary>
+ Gets the SMS sender phone number
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.Message.Text">
+	<summary>
+ Gets the SMS text message
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.Message.TimeStamp">
+	<summary>
+ Gets the SMS sending date and time
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.Message.TimeStampRFC">
+	<summary>
+ Gets the SMS sending date and time as RFC-822 format string
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.Message.TimeZone">
+	<summary>
+ Gets GMT Timezone offset for TimeStamp in minutes
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.Message.SMSC">
+	<summary>
+ Gets the sender SMSC address
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:mCore.Message.Delete">
+	<summary>
+ Deletes the message permanently from mCore Inbox and message memory
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="F:mCore.WapPush.EnumAction.SignalLow">
+	<summary>
+ 'signal-low' as per WAP-167 Service Indication specification
+ </summary>
+	<remarks></remarks>
+</member><member name="F:mCore.WapPush.EnumAction.SignalMedium">
+	<summary>
+ 'signal-medium' as per WAP-167 Service Indication specification
+ </summary>
+	<remarks></remarks>
+</member><member name="F:mCore.WapPush.EnumAction.SignalHigh">
+	<summary>
+ 'signal-high' as per WAP-167 Service Indication specification
+ </summary>
+	<remarks></remarks>
+</member><member name="T:mCore.WapPush.EnumAction">
+	<summary>
+ WAP Push action to be taken values
+ </summary>
+	<remarks></remarks>
+</member><member name="P:mCore.WapPush.Destination">
+	<summary>
+ Gets or sets the destination mobile phone number to which the wap push is to be sent
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.WapPush.Text">
+	<summary>
+ Gets or sets the text message prompt to be displayed on recipient mobile device
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.WapPush.URL">
+	<summary>
+ Gets or sets the URL to access the wap push content
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.WapPush.Action">
+	<summary>
+ Gets or sets the action to be taken by the mobile device on receiving the wap push
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.WapPush.Created">
+	<summary>
+ Gets or sets date and time of creation or last modification of the content associated with the wap push URL
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.WapPush.Expiry">
+	<summary>
+ Gets or sets a date and time when the wap push expires
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:mCore.WapPush.Send">
+	<summary>
+ Sends the wap push message
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:mCore.WapPush.SendToQueue">
+	<summary>
+ Send the wap push message to message queue with normal message queue priority
+ </summary>
+	<returns>Unique key as string that identifies the wap push message in the queue</returns>
+	<remarks></remarks>
+</member><member name="M:mCore.WapPush.SendToQueue(mCore.QueuePriority)">
+	<summary>
+ Send the wap push message to message queue with option to define queue priority for the message
+ </summary>
+	<param name="Priority">Queue priority</param>
+	<returns>Unique key as string that identifies the wap push message in the queue</returns>
+	<remarks></remarks>
+</member><member name="P:mCore.WapPush.IsLengthOK">
+	<summary>
+ Gets a value to indicate if the wap push message length is within one SMS message limit
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.vCard.Destination">
+	<summary>
+ Gets or sets the destination mobile phone number to which the vCard is to be sent
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.vCard.FirstName">
+	<summary>
+ Gets or sets the first name of the contact person
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.vCard.MiddleName">
+	<summary>
+ Gets or sets the middle name of the contact person
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.vCard.LastName">
+	<summary>
+ Gets or sets the last name of the contact person
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.vCard.HomePhone">
+	<summary>
+ Gets or sets the voice phone number at home
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.vCard.BusinessPhone">
+	<summary>
+ Gets or sets the voice phone number at work
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.vCard.MobilePhone">
+	<summary>
+ Gets or sets the cellular phone number
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.vCard.Email">
+	<summary>
+ Gets or sets the contact email address
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.vCard.URL">
+	<summary>
+ Gets or sets the website URL
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.vCard.JobTitle">
+	<summary>
+ Gets or sets the title at work place
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.vCard.Company">
+	<summary>
+ Gets or sets the work place company name
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.vCard.HomeAddressStreet">
+	<summary>
+ Gets or sets the home street address
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.vCard.HomeAddressCity">
+	<summary>
+ Gets or sets the home address city name
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.vCard.HomeAddressState">
+	<summary>
+ Gets or sets the home address state name
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.vCard.HomeAddressZIP">
+	<summary>
+ Gets or sets the home address postal ZIP code
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.vCard.HomeAddressCountry">
+	<summary>
+ Gets or sets the home address country name
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.vCard.BusinessAddressStreet">
+	<summary>
+ Gets or sets the work place street address
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.vCard.BusinessAddressCity">
+	<summary>
+ Gets or sets the work address city name
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.vCard.BusinessAddressState">
+	<summary>
+ Gets or sets the work address state name
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.vCard.BusinessAddressZIP">
+	<summary>
+ Gets or sets the work address postal ZIP code
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.vCard.BusinessAddressCountry">
+	<summary>
+ Gets or sets the work address country name
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.vCard.Comment">
+	<summary>
+ Gets or sets a comment text for the vCard
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:mCore.vCard.Send">
+	<summary>
+ Send the vCard
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:mCore.vCard.SendToQueue">
+	<summary>
+ Send the vCard to message queue with normal message queue priority
+ </summary>
+	<returns>Unique key as string that identifies the vCard message in the queue</returns>
+	<remarks></remarks>
+</member><member name="M:mCore.vCard.SendToQueue(mCore.QueuePriority)">
+	<summary>
+ Send the vCard message to message queue with option to define queue priority for the message
+ </summary>
+	<param name="Priority">Queue priority</param>
+	<returns>Unique key as string that identifies the vCard message in the queue</returns>
+	<remarks></remarks>
+</member><member name="M:mCore.vCard.SendFile(System.String)">
+	<summary>
+ Send a vCard file (.vcf file)
+ </summary>
+	<param name="vCardFile">vCard file path</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:mCore.vCard.SendFileToQueue(System.String)">
+	<summary>
+ Send a vCard file (.vcf file) to message queue with normal message queue priority
+ </summary>
+	<param name="vCardFile">vCard file path</param>
+	<returns>Unique key as string that identifies the vCard message in the queue</returns>
+	<remarks></remarks>
+</member><member name="M:mCore.vCard.SendFileToQueue(System.String,mCore.QueuePriority)">
+	<summary>
+ Send a vCard file (.vcf file) to message queue with option to define the message queue priority
+ </summary>
+	<param name="vCardFile">vCard file path</param>
+	<param name="Priority">Queue priority</param>
+	<returns>Unique key as string that identifies the vCard message in the queue</returns>
+	<remarks></remarks>
+</member><member name="P:mCore.NewDeliveryReportEventArgs.MessageReference">
+	<summary>
+ Message reference number for which delivery report received
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.NewDeliveryReportEventArgs.Phone">
+	<summary>
+ Phone number to which the SMS was sent
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.NewDeliveryReportEventArgs.Status">
+	<summary>
+ SMS delivered status
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.NewDeliveryReportEventArgs.DeliveryTimeStamp">
+	<summary>
+ SMS delivery date and time
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.NewDeliveryReportEventArgs.DeliveryTimeZone">
+	<summary>
+ TimeZone for DeliveryTimeStamp property (difference in minutes w.r.t GMT)
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.NewDeliveryReportEventArgs.SentTimeStamp">
+	<summary>
+ Date and time when the SMS was sent by the SMSC
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.NewDeliveryReportEventArgs.SentTimeZone">
+	<summary>
+ TimeZone for SentTimeStamp property (difference in minutes w.r.t GMT)
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.NewIncomingCallEventArgs.CallerID">
+	<summary>
+ Phone number of the caller
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.NewMessageReceivedEventArgs.Phone">
+	<summary>
+ SMS sender phone number
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.NewMessageReceivedEventArgs.TextMessage">
+	<summary>
+ SMS text message
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.NewMessageReceivedEventArgs.SMSC">
+	<summary>
+ Sender SMSC address
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.NewMessageReceivedEventArgs.TimeStamp">
+	<summary>
+ SMS sending date and time
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.NewMessageReceivedEventArgs.TimeStampRFC">
+	<summary>
+ SMS sending date and time as RFC-822 format string
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.NewMessageReceivedEventArgs.TimeZone">
+	<summary>
+ GMT Timezone offset for TimeStamp in minutes
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.NewMessageReceivedEventArgs.TotalParts">
+	<summary>
+ Total messages if this message is a part of a concatenated SMS
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.NewMessageReceivedEventArgs.ReferenceNumber">
+	<summary>
+ Concatenated SMS reference number
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.NewMessageReceivedEventArgs.SequenceNumber">
+	<summary>
+ Concatenated SMS sequence number
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.NewUSSDReceivedEventArgs.Message">
+	<summary>
+ Incoming USSD message string
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.NewUSSDReceivedEventArgs.Status">
+	<summary>
+ USSD status as reported by incoming USSD message
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.QueueSMSSendingEventArgs.DestinationNumber">
+	<summary>
+ Destination mobile phone number to which the SMS is being sent
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.QueueSMSSendingEventArgs.Priority">
+	<summary>
+ Queue priority of the message being sent
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.QueueSMSSendingEventArgs.QueueMessageKey">
+	<summary>
+ Unique key as string that identifies the message in the queue
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.QueueSMSSentEventArgs.DestinationNumber">
+	<summary>
+ Destination number to which the SMS message was sent
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.QueueSMSSentEventArgs.ErrorCode">
+	<summary>
+ Error code if SMS message sending failed
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.QueueSMSSentEventArgs.ErrorDescription">
+	<summary>
+ Error description if SMS message sending failed
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.QueueSMSSentEventArgs.MessageReference">
+	<summary>
+ Message reference number(s) of the SMS sent
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.QueueSMSSentEventArgs.QueueMessageKey">
+	<summary>
+ Unique key as string that identifies the message in the queue
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.QueueSMSSentEventArgs.SendResult">
+	<summary>
+ Message sending result as a boolean value
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.QueueVCalendarSendingEventArgs.DestinationNumber">
+	<summary>
+ Destination mobile phone number to which the vCalendar message is being sent
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.QueueVCalendarSendingEventArgs.Priority">
+	<summary>
+ Queue priority of the message being sent
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.QueueVCalendarSendingEventArgs.QueueMessageKey">
+	<summary>
+ Unique key as string that identifies the message in the queue
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.QueueVCalendarSentEventArgs.DestinationNumber">
+	<summary>
+ Destination number to which the vCalendar message was sent
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.QueueVCalendarSentEventArgs.ErrorCode">
+	<summary>
+ Error code if vCalendar message sending failed
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.QueueVCalendarSentEventArgs.ErrorDescription">
+	<summary>
+ Error description if vCalendar message sending failed
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.QueueVCalendarSentEventArgs.MessageReference">
+	<summary>
+ Message reference number(s) of the vCalendar message sent
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.QueueVCalendarSentEventArgs.QueueMessageKey">
+	<summary>
+ Unique key as string that identifies the message in the queue
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.QueueVCalendarSentEventArgs.SendResult">
+	<summary>
+ Message sending result as a boolean value
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.QueueVCardSendingEventArgs.DestinationNumber">
+	<summary>
+ Destination mobile phone number to which the vCard message is being sent
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.QueueVCardSendingEventArgs.Priority">
+	<summary>
+ Queue priority of the message being sent
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.QueueVCardSendingEventArgs.QueueMessageKey">
+	<summary>
+ Unique key as string that identifies the message in the queue
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.QueueVCardSentEventArgs.DestinationNumber">
+	<summary>
+ Destination number to which the vCard message was sent
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.QueueVCardSentEventArgs.ErrorCode">
+	<summary>
+ Error code if vCard message sending failed
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.QueueVCardSentEventArgs.ErrorDescription">
+	<summary>
+ Error description if vCard message sending failed
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.QueueVCardSentEventArgs.MessageReference">
+	<summary>
+ Message reference number(s) of the vCard message sent
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.QueueVCardSentEventArgs.QueueMessageKey">
+	<summary>
+ Unique key as string that identifies the message in the queue
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.QueueVCardSentEventArgs.SendResult">
+	<summary>
+ Message sending result as a boolean value
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.QueueWapPushSendingEventArgs.DestinationNumber">
+	<summary>
+ Destination mobile phone number to which the WAP Push is being sent
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.QueueWapPushSendingEventArgs.Priority">
+	<summary>
+ Queue priority of the message being sent
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.QueueWapPushSendingEventArgs.QueueMessageKey">
+	<summary>
+ Unique key as string that identifies the message in the queue
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.QueueWapPushSentEventArgs.DestinationNumber">
+	<summary>
+ Destination number to which the WAP Push message was sent
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.QueueWapPushSentEventArgs.ErrorCode">
+	<summary>
+ Error code if WAP Push message sending failed
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.QueueWapPushSentEventArgs.ErrorDescription">
+	<summary>
+ Error description if WAP Push message sending failed
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.QueueWapPushSentEventArgs.MessageReference">
+	<summary>
+ Message reference number(s) of the WAP Push message sent
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.QueueWapPushSentEventArgs.QueueMessageKey">
+	<summary>
+ Unique key as string that identifies the message in the queue
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.QueueWapPushSentEventArgs.SendResult">
+	<summary>
+ Message sending result as a boolean value
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.QueueSmartMessageSendingEventArgs.DestinationNumber">
+	<summary>
+ Destination mobile phone number to which the smart message is being sent
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.QueueSmartMessageSendingEventArgs.Priority">
+	<summary>
+ Queue priority of the smart message being sent
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.QueueSmartMessageSendingEventArgs.QueueMessageKey">
+	<summary>
+ Unique key as string that identifies the smart message in the queue
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.QueueSmartMessageSentEventArgs.DestinationNumber">
+	<summary>
+ Destination number to which the smart message was sent
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.QueueSmartMessageSentEventArgs.ErrorCode">
+	<summary>
+ Error code if smart message sending failed
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.QueueSmartMessageSentEventArgs.ErrorDescription">
+	<summary>
+ Error description if smart message sending failed
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.QueueSmartMessageSentEventArgs.MessageReference">
+	<summary>
+ Message reference number(s) of the smart message sent
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.QueueSmartMessageSentEventArgs.QueueMessageKey">
+	<summary>
+ Unique key as string that identifies the smart message in the queue
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.QueueSmartMessageSentEventArgs.SendResult">
+	<summary>
+ Smart message sending result as a boolean value
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.QueuePictureSMSSendingEventArgs.DestinationNumber">
+	<summary>
+ Destination mobile phone number to which the smart message is being sent
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.QueuePictureSMSSendingEventArgs.Priority">
+	<summary>
+ Queue priority of the smart message being sent
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.QueuePictureSMSSendingEventArgs.QueueMessageKey">
+	<summary>
+ Unique key as string that identifies the smart message in the queue
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.QueuePictureSMSSentEventArgs.DestinationNumber">
+	<summary>
+ Destination number to which the smart message was sent
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.QueuePictureSMSSentEventArgs.ErrorCode">
+	<summary>
+ Error code if smart message sending failed
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.QueuePictureSMSSentEventArgs.ErrorDescription">
+	<summary>
+ Error description if smart message sending failed
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.QueuePictureSMSSentEventArgs.MessageReference">
+	<summary>
+ Message reference number(s) of the smart message sent
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.QueuePictureSMSSentEventArgs.QueueMessageKey">
+	<summary>
+ Unique key as string that identifies the smart message in the queue
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.QueuePictureSMSSentEventArgs.SendResult">
+	<summary>
+ Smart message sending result as a boolean value
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.Queue.Enabled">
+	<summary>
+ Gets or sets a value to define whether the message queue is enabled (sends out messages)
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:mCore.Queue.Clear">
+	<summary>
+ Removes all unsent messages from the queue
+ </summary>
+	<returns>Returns boolean value True, if clearing is successful</returns>
+	<remarks></remarks>
+</member><member name="P:mCore.Queue.Count">
+	<summary>
+ Gets the count of unsent messages in message queue
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.vCalendar.Destination">
+	<summary>
+ Gets or sets the destination mobile phone number to which the vCalendar event is to be sent
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.vCalendar.StartDateTime">
+	<summary>
+ Gets or sets the vCalendar event start date and time
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.vCalendar.EndDateTime">
+	<summary>
+ Gets or sets the vCalendar event end date and time
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.vCalendar.EventDuration">
+	<summary>
+ Gets or sets the vCalendar event time duration
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.vCalendar.Description">
+	<summary>
+ Gets or sets the vCalendar event description text
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.vCalendar.Summary">
+	<summary>
+ Gets or sets the vCalendar event summary text
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:mCore.vCalendar.Location">
+	<summary>
+ Gets or sets the vCalendar event location
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:mCore.vCalendar.Send">
+	<summary>
+ Send the vCalendar event message
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:mCore.vCalendar.SendToQueue">
+	<summary>
+ Send the vCalendar event message to message queue with normal message queue priority
+ </summary>
+	<returns>Unique key as string that identifies the vCalendar message in the queue</returns>
+	<remarks></remarks>
+</member><member name="M:mCore.vCalendar.SendToQueue(mCore.QueuePriority)">
+	<summary>
+ Send the vCalendar event message to message queue with option to define message queue priority
+ </summary>
+	<param name="Priority">Queue priority</param>
+	<returns>Unique key as string that identifies the vCalendar message in the queue</returns>
+	<remarks></remarks>
+</member><member name="M:mCore.vCalendar.SendFile(System.String)">
+	<summary>
+ Send a vCalendar file (.vcs file)
+ </summary>
+	<param name="vCalendarFile">vCalendar file path</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:mCore.vCalendar.SendFileToQueue(System.String)">
+	<summary>
+ Send a vCalendar file (.vcs file) to message queue with normal message queue priority
+ </summary>
+	<param name="vCalendarFile">vCalendar file path</param>
+	<returns>Unique key as string that identifies the vCalendar message in the queue</returns>
+	<remarks></remarks>
+</member><member name="M:mCore.vCalendar.SendFileToQueue(System.String,mCore.QueuePriority)">
+	<summary>
+ Send a vCalendar file (.vcs file) to message queue with option to define message queue priority
+ </summary>
+	<param name="vCalendarFile">vCalendar file path</param>
+	<param name="Priority">Queue priority</param>
+	<returns>Unique key as string that identifies the vCalendar message in the queue</returns>
+	<remarks></remarks>
+</member>
+</members>
+</doc>
