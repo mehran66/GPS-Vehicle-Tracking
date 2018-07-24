@@ -4,6 +4,8 @@ A C# code for GPS Vehicle Tracking. This is a class project for the <a href="htt
 Code/Car/bin/Debug/mCoreDemo.exe <br>
 Code/Office/bin/Debug/mCoreDemo.exe
 
+--Code was written in Fall 2010 with my teammate Mohsen Goodarzi
+
 
 
 ![1](https://user-images.githubusercontent.com/10367311/43111558-1542191c-8eaf-11e8-86b8-7e35223ab13c.PNG)
