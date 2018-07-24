@@ -1,7 +1,8 @@
 # GPS Vehicle Tracking
-A C# code for GPS Vehicle Tracking. This is a class project for the Location Based Servics (LBS) course. This project has two main parts; the car side part and the user side part. There are a GPS and a simcard reader in the car. When the user send an SMS to the simcard in the card, the car's location is recieved by the user. Therefore, there are two different interfaces desined and coded in C#. To run the program run the following files: <br>
+A C# code for GPS Vehicle Tracking. This is a class project for the <a href="https://en.wikipedia.org/wiki/Location-based_service">Location Based Servics (LBS)</a> course. This project has two main parts; the car side part and the user side part. There are a GPS and a simcard reader in the car. When the user send an SMS to the simcard in the card, the car's location is recieved by the user. Therefore, there are two different interfaces desined and coded in C#. To run the program run the following files: <br>
 
-GPS-Vehicle-Tracking/Code/Car/bin/Debug/mCoreDemo.exe
+Code/Car/bin/Debug/mCoreDemo.exe <br>
+Code/Office/bin/Debug/mCoreDemo.exe
 
 
 
